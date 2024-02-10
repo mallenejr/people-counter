@@ -1,0 +1,66 @@
+body {
+    background-image: url("train\ station.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.container {
+    background: rgb(8, 186, 199);
+    max-width: 80%;
+    margin: auto;
+    border: 3px black;
+    border-radius: 10px;
+}
+
+h1 {
+    color:rgb(9, 237, 47);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color:rgb(103, 255, 80);
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color:rgb(255, 243, 80);
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(255, 252, 252);
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+    font-weight: bold;
+}
+
+#save-btn {
+    background: darkgreen;
+    font-weight: bold;
+}
+
+#reset-btn {
+    background: rgb(20, 0, 100);
+    font-weight: bold;
+}
+
+#delete-btn {
+    background: rgb(100, 0, 85);
+    font-weight: bold;
+}
+
